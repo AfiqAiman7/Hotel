@@ -1,0 +1,75 @@
+/*
+NIK SYAZWAN BIN NIK KAMAL BAHSHAH
+2020613638
+M3CS1104C
+CSS FOR FORM MEMBER AND FORM BOOK
+*/
+@import url('https://fonts.googleapis.com/css?family=Poppins: 200,300,400,500,600,700,800,900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+	background: linear-gradient(90deg, #0e3959 0%, #0e3959 30%, #03a9f5 30%,#03a9f5 100%);
+}
+
+/*title*/
+.contactUs
+{
+	position: relative;
+	width: 100%;
+	padding: 90px 100px;
+}
+
+.contactUs .title
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+}
+
+.contactUs .title h2
+{
+	color: white;
+	font-weight: 500;
+}
+
+/*backgound, size dan shadow */
+.contact
+{
+	padding: 40px;
+	background: white;
+	box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15);
+}
+
+.contact h3
+{
+	color: #0e3959;
+	font-weight: 500;
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+
+.button
+{
+	background: cornflowerblue;
+	color: white;
+	border: none;
+	font-size: 1.1em;
+	max-width: 250px;
+	font-weight: 500;
+	cursor: pointer;
+	padding: 14px 15px;
+}
+
+/*Auto Typing Warna Font*/
+.typing
+{
+	color: cornflowerblue;
+}
